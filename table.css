@@ -21,8 +21,9 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 62.5%;
   line-height: 1;
+  background-color: #0c4173;
   color: #585858;
-  padding: 22px 100px;
+  padding: 2px 100px;
   padding-bottom: 55px;
 }
 
@@ -67,7 +68,7 @@ h1 {
   display: block;
   width: 850px;
   background: #fff;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px 17px 10px 17px;
   -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
 }
@@ -87,7 +88,7 @@ table tr:last-child td:last-child {
   border-bottom-right-radius: 5px;
 }
 
-#stats {
+#infoTable {
   border: 0px solid;
   border-radius: 5px;
   margin: 0 auto;
@@ -95,34 +96,34 @@ table tr:last-child td:last-child {
   margin-bottom: 15px;
 }
 
-#stats thead {
+#infoTable thead {
   cursor: pointer;
   background-color: #f7f6f5;
   color: black;
   width: stretch;
 }
-#stats thead tr th {
+#infoTable thead tr th {
   font-weight: bold;
   padding: 12px 30px;
   padding-left: 40px;
 }
-#stats thead tr th span { 
+#infoTable thead tr th span { 
   padding-right: 20px;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 
-#stats thead tr th.headerSortUp span {
+#infoTable thead tr th.headerSortUp span {
   background-image: url('https://i.imgur.com/SP99ZPJ.png');
 }
-#stats thead tr th.headerSortDown span {
+#infoTable thead tr th.headerSortDown span {
   background-image: url('https://i.imgur.com/RkA9MBo.png');
 }
-#stats tbody tr td {
+#infoTable tbody tr td {
   text-align: center;
   padding: 15px 10px;
 }
-#stats tbody tr td.lalign {
+#infoTable tbody tr td.lalign {
   text-align: left;
 }
 tbody tr:nth-child(2n+1){
