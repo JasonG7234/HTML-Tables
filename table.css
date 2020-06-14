@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 html { overflow-y: scroll; }
 body { 
-  background: #eee url('https://i.imgur.com/eeQeRmk.png'); /* https://subtlepatterns.com/weave/ */
+  background: url('https://thestreamable.com/media/pages/sports/ncaa-mens-basketball/pepperdine-waves/3070164416-1583185840/pepperdine-waves-banner.png') no-repeat center center fixed;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 62.5%;
   line-height: 1;
@@ -59,6 +59,7 @@ h1 {
   line-height: 1.7em;
   margin-bottom: 10px;
   text-align: center;
+  color: #0c4173;
 }
 /** page structure **/
 #wrapper {
@@ -98,11 +99,12 @@ table tr:last-child td:last-child {
   cursor: pointer;
   background-color: #f7f6f5;
   color: black;
+  width: stretch;
 }
 #stats thead tr th {
   font-weight: bold;
   padding: 12px 30px;
-  padding-left: 42px;
+  padding-left: 40px;
 }
 #stats thead tr th span { 
   padding-right: 20px;
